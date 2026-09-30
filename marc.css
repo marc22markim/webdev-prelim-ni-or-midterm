@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>marc</title>
+<style>
+  body { margin:0; background-image: url ("miming2"); font-family:Arial, sans-serif;
+         display:flex; justify-content:center; padding:40px 0; }
+  .page { position:relative; width:545px; height:756px; background:#fff;
+          box-shadow:8px 8px 14px rgba(0,0,0,.35); overflow:hidden; }
+  .b { position:absolute; }
+  .url  { position:absolute; left:34px; top:28px; font-size:11px; color:#444; }
+  .brand{ position:absolute; right:34px; top:28px; font-size:10px;
+          font-weight:bold; letter-spacing:4px; color:#222; }
+
+ {  
+ background-image:url ("miming2");
+ background:repeating-radial-gradient(circle at 30% 30%,#e3b477,#c48a4e 12px,#7a4a22 24px); }
+  .moss   { background:linear-gradient(#3b3a26,#6d6a3a 60%,#d9963c); }
+  .forest { background:linear-gradient(#5a3a2a,#b8a08a 50%,#a5541f); }
+  .fox    { background:radial-gradient(circle at 60% 55%,#2b1a0e 4px,#f0e2cf 5px,#e2a24d 60%); }
+  .tree   { background:radial-gradient(circle at 40% 40%,#4d6b34,#1c2a17 70%,#0d140b); }
+  .sky    { background:linear-gradient(#7a9aa3,#b9cbd0 50%,#f2f0ec 80%); }
+  .grass  { background:repeating-linear-gradient(80deg,#2b3d1f,#4d6b34 4px,#1b2814 8px); }
+  .snow   { background:linear-gradient(#b8a58a,#8a7a63); }
+  .brown  { background:radial-gradient(circle at 30% 40%,#c8742a,#7a3d14 50%,#2e1a0e); }
+  { background:linear-gradient(120deg,#1b1a12,#5a4a25 60%,#a88a3d); }
+
+  /* white headline band */
+  .band { position:absolute; left:0; top:310px; width:100%; height:135px;
+          background:#fff; text-align:center;
+          box-shadow:0 4px 8px rgba(0,0,0,.18); }
+  .band h1 { margin:38px 0 0; font-size:52px; letter-spacing:3px; color:#2a2a2a; }
+  .band p  { margin:10px 0 0; font-size:14px; letter-spacing:9px; color:#222; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="url">Marc Estorgio</div>
+  <div class="brand">BSDS 3A</div>
+
+  <!-- top row -->
+  <div class="b logs"   style="left:28px;  top:55px;  width:67px;  height:255px"></div>
+  <div class="b moss"   style="left:113px; top:55px;  width:67px;  height:255px"></div>
+  <div class="b forest" style="left:197px; top:55px;  width:151px; height:141px"></div>
+  <div class="b fox"    style="left:197px; top:213px; width:67px;  height:98px"></div>
+  <div class="b tree"   style="left:282px; top:213px; width:67px;  height:98px"></div>
+  <div class="b sky"    style="left:365px; top:55px;  width:67px;  height:255px"></div>
+  <div class="b tree"   style="left:450px; top:55px;  width:67px;  height:255px"></div>
+
+  <!-- bottom rows -->
+  <div class="b logs"   style="left:28px;  top:445px; width:67px;  height:143px"></div>
+  <div class="b grass"  style="left:113px; top:445px; width:67px;  height:143px"></div>
+  <div class="b grass"  style="left:197px; top:445px; width:67px;  height:143px"></div>
+  <div class="b tree"   style="left:282px; top:445px; width:67px;  height:285px"></div>
+  <div class="b snow"   style="left:365px; top:445px; width:67px;  height:39px"></div>
+  <div class="b tree"   style="left:450px; top:445px; width:67px;  height:39px"></div>
+  <div class="b brown"  style="left:365px; top:500px; width:152px; height:230px"></div>
+  <div class="b land"   style="left:28px;  top:604px; width:321px; height:126px"></div>
+
+  <!-- headline band -->
+  <div class="band">
+    <h1>HEADLINE</h1>
+    <p>ABSTRACT FLYER</p>
+  </div>
+</div>
+</body>
+</html>
